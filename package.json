@@ -2,6 +2,12 @@
   "name": "wegodev-mini-project-3",
   "private": true,
   "version": "0.0.0",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +16,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
